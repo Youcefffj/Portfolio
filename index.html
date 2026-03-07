@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youcef Yaich | Cybersecurity Engineer & AI Enthusiast</title>
+    <meta name="description" content="Portfolio of Youcef Yaich - Cybersecurity Engineer, AI Enthusiast, ECE Paris Graduate">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Grid background -->
+<div class="grid-bg"></div>
+
+<!-- Matrix rain -->
+<canvas id="matrix-canvas"></canvas>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar">
+    <div class="nav-logo">&lt;youcefffj /&gt;</div>
+
+    <button class="nav-hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li class="nav-separator">//</li>
+        <li><a href="#experience">Experience</a></li>
+        <li class="nav-separator">//</li>
+        <li><a href="#projects">Projects</a></li>
+        <li class="nav-separator">//</li>
+        <li><a href="#cv">CV</a></li>
+        <li class="nav-separator">//</li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="nav-separator">|</li>
+        <li>
+            <button class="lang-switch active" data-lang="en" onclick="switchLang('en')">EN</button>
+            <button class="lang-switch" data-lang="fr" onclick="switchLang('fr')">FR</button>
+        </li>
+    </ul>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section id="hero">
+    <div class="terminal-window">
+        <div class="terminal-header">
+            <span class="terminal-dot red"></span>
+            <span class="terminal-dot yellow"></span>
+            <span class="terminal-dot green"></span>
+            <span class="terminal-title">youcefffj@portfolio:~</span>
+        </div>
+        <div class="terminal-body" id="terminal-content">
+        </div>
+    </div>
+
+    <div class="hero-status">
+        <span class="status-dot"></span>
+        <span id="hero-status-text">Currently working on &rarr; Stardust &middot; LexIA v2</span>
+    </div>
+
+    <div class="hero-scroll-cta">
+        <a href="#about">
+            <span data-i18n="scroll_cta">Explore</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+        </a>
+    </div>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section id="about" class="fade-in">
+    <h2 class="section-title" data-i18n="about_title">About</h2>
+    <p class="about-text" data-i18n="about_text">
+        Engineer graduated from ECE Paris, specialized in cybersecurity. Two years of experience at BNP Paribas in data security, governance, and anti-fraud. Passionate about building intelligent and secure systems.
+    </p>
+    <div class="about-links">
+        <a href="https://github.com/Youcefffj" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/youcef-y-7b7378203/" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+        </a>
+        <a href="mailto:youcef.yaich@outlook.fr">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            youcef.yaich@outlook.fr
+        </a>
+    </div>
+</section>
+
+<!-- ========== EXPERIENCE ========== -->
+<section id="experience" class="fade-in">
+    <h2 class="section-title" data-i18n="exp_title">Experience</h2>
+    <div class="timeline">
+
+        <div class="timeline-item fade-in">
+            <div class="timeline-date">2024 &mdash; 2026</div>
+            <div class="timeline-company">BNP Paribas</div>
+            <div class="timeline-role">Data Security &amp; Governance</div>
+            <ul class="timeline-details">
+                <li>Built Python tooling to automatically detect exposed secrets on Confluence, backed by a proprietary AI model to validate findings and cut false positives</li>
+                <li>Automated Guardium Discovery scans and delivered PowerBI dashboards for CISO-level reporting via Varonis</li>
+                <li>Enforced least privilege across network shares, migrated GUI auth to WebSSO, and patched RHEL Kernel via Ansible</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item fade-in">
+            <div class="timeline-date">May &mdash; Aug 2024</div>
+            <div class="timeline-company">Shush Technologies &middot; South Korea</div>
+            <div class="timeline-role">DevOps Intern</div>
+            <ul class="timeline-details">
+                <li>Built and deployed JavaScript web scrapers with Puppeteer, piped through RabbitMQ for large-scale data collection</li>
+                <li>Developed an AI-powered OCR system in Python (Tesseract, PyMuPDF, PIL), integrated with Django and deployed on AWS S3 + DynamoDB</li>
+                <li>Engineered a full data pipeline from crawling to structured parsing and shipped a Chrome extension improving app interactivity</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item fade-in">
+            <div class="timeline-date">2023 &mdash; 2024</div>
+            <div class="timeline-company">BNP Paribas</div>
+            <div class="timeline-role">Digital Fraud &amp; Phishing Analyst</div>
+            <ul class="timeline-details">
+                <li>Monitored typosquatting, neutralized fraudulent domains and operated HoneyPots for threat capture</li>
+                <li>Conducted deep threat intelligence research on IPFS protocols, TLS fingerprinting (JARM/JA3S) and SIM Swap scenarios</li>
+                <li>Tracked Telegram-based fraud campaigns and built scripts to extract logs from fraudulent sites</li>
+            </ul>
+        </div>
+
+        <div class="timeline-item fade-in">
+            <div class="timeline-date">2022 &mdash; 2023</div>
+            <div class="timeline-company">Plasmabiotics</div>
+            <div class="timeline-role">R&amp;D Engineering Intern</div>
+            <ul class="timeline-details">
+                <li>Designed system and software test procedures, analyzed results and shipped technical fixes</li>
+                <li>Drafted test plans and compliance documentation for regulatory standards</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- ========== PROJECTS ========== -->
+<section id="projects" class="fade-in">
+    <h2 class="section-title" data-i18n="projects_title">Projects</h2>
+    <div class="projects-grid" id="projects-grid">
+        <!-- Rendered dynamically from config.json -->
+    </div>
+</section>
+
+<!-- ========== CV VIEWER ========== -->
+<section id="cv" class="fade-in">
+    <h2 class="section-title" data-i18n="cv_title">Resume</h2>
+
+    <div class="cv-tabs">
+        <button class="cv-tab" data-src="assets/cv/cv_fr.pdf" data-lang="fr">Fran&ccedil;ais</button>
+        <button class="cv-tab active" data-src="assets/cv/cv_en.pdf" data-lang="en">English</button>
+    </div>
+
+    <div class="cv-viewer-container">
+        <iframe id="cv-iframe" class="cv-iframe" src="assets/cv/cv_en.pdf"></iframe>
+        <div class="cv-mobile-fallback">
+            <p style="color: var(--text-muted); margin-bottom: 1rem;">PDF viewer not available on mobile</p>
+            <a href="assets/cv/cv_fr.pdf" target="_blank" data-i18n="cv_open">Open resume fullscreen</a>
+        </div>
+    </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section id="contact" class="fade-in">
+    <h2 class="section-title" data-i18n="contact_title">Contact</h2>
+    <a href="mailto:youcef.yaich@outlook.fr" class="contact-email">youcef.yaich@outlook.fr</a>
+    <div class="contact-icons">
+        <a href="https://github.com/Youcefffj" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/youcef-y-7b7378203/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+    </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+    &copy; 2026 Youcef Yaich &middot; Built with raw HTML/CSS/JS
+</footer>
+
+<!-- ========== SPOTIFY NOW PLAYING ========== -->
+<div class="spotify-widget" id="spotify-widget" style="display:none;">
+    <svg class="spotify-icon" width="40" height="40" viewBox="0 0 24 24" fill="#1db954"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+    <div class="spotify-info">
+        <div class="spotify-track" id="spotify-track"></div>
+        <div class="spotify-artist" id="spotify-artist"></div>
+    </div>
+    <div class="spotify-bars">
+        <span class="spotify-bar"></span>
+        <span class="spotify-bar"></span>
+        <span class="spotify-bar"></span>
+        <span class="spotify-bar"></span>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

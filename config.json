@@ -1,0 +1,38 @@
+{
+    "github_username": "Youcefffj",
+    "status": {
+        "auto": true,
+        "fixed": ["Stardust"],
+        "fallback": ["LexIA v2"]
+    },
+    "terminal": [
+        { "type": "command", "text": "whoami" },
+        { "type": "output", "text": "Youcef Yaich \u2014 Cybersecurity Engineer & AI Enthusiast" },
+        { "type": "command", "text": "skills --list" },
+        { "type": "output", "text": "[ Cybersecurity \u00b7 Data Security \u00b7 LLM Security \u00b7 AI/ML \u00b7 DevOps \u00b7 Full-Stack ]" },
+        { "type": "command", "text": "status" },
+        { "type": "output", "text": "__STATUS__" }
+    ],
+    "projects": [
+        {
+            "title": "Stardust \u2014 Social Deduction Game",
+            "desc": "Social deduction game inspired by Blood on the Clocktower with proximity voice chat, built on Source 2.",
+            "tags": ["C#", "s&box", "Source 2"],
+            "badge": { "text": "In Development", "type": "wip" },
+            "repo": "",
+            "pinned": true
+        },
+        {
+            "title": "IoT \u2014 Automated Aquarium",
+            "desc": "Embedded system managing temperature, water level, and feeding via sensors and mobile app control.",
+            "tags": ["Arduino", "Sensors", "Mobile App"],
+            "badge": null,
+            "repo": "",
+            "pinned": true
+        }
+    ],
+    "lastfm": {
+        "api_key": "1c9f06dff5bbbeb41ee0d43df9c7c5d7",
+        "username": "Youcefffj"
+    }
+}
