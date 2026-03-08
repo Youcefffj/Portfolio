@@ -256,7 +256,7 @@ function initTerminal() {
 /* ========== DYNAMIC PROJECTS ========== */
 
 // Repos to hide (profile repo, this portfolio, etc.)
-const HIDDEN_REPOS = ['youcefffj', 'Portfolio', 'candr-ecommerce', 'agora', 'alim-care', 'crypto-courbe-api', 'nft', 'selfmade', 'windowserverexolab4'];
+const HIDDEN_REPOS = ['youcefffj', 'portfolio', 'candr-ecommerce', 'agora', 'alim-care', 'crypto-courbe-api', 'nft', 'selfmade', 'windowserverexolab4'];
 
 function getOverride(repoName) {
     if (!config || !config.projects) return null;
